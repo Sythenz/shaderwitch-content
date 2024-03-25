@@ -114,5 +114,5 @@ Alessa ❤️
 
 ---
 
-### Additional Resources
+## Additional Resources
 > [1] [Original Article on 80.lvl](https://80.lv/articles/creating-stylized-linear-gradient/) 80.lv  
