@@ -4,7 +4,7 @@ title = "Stylized Linear Gradients"
 weight = 1
 Author = "Alessa \"Codekitten\" Baker"
 status = "Complete"
-UnrealVersion = "5.2"
+UnrealVersion = "NA"
 +++
 
 {{< article-header >}}
