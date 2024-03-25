@@ -45,6 +45,8 @@ based on the colors of its position.
 
 {{< figure src="https://cdn.80.lv/api/upload/content/25/5d2c7e7f31831.gif" title="Absolute World Position on a mesh" >}}
 
+## Relative Positioning
+
 So naturally, for our linear gradient we need to grab the Z vector, as we want our gradient to face upward in our 
 material. Let’s add a component mask before the clamp and use B (Z), unchecking R and G. Once we place this on the mesh,
 drag the mesh around and you’ll find that when the mesh passes below the grid in editor, Z: 0.0, the mesh will
@@ -61,6 +63,8 @@ that stays with our mesh when we move it up and down! This will become the basis
 
 {{< figure src="https://cdn.80.lv/api/upload/content/f9/5d2c7e75b0875.gif" title="An example of our gradient moving relative to the object." >}}
 
+## Relative Scale
+
 Let’s bring Object Radius into the mix. Object Radius gives us a value equal to the overall radius of our object. We will
 subtract this from our object position, you can think of this as a ‘range’ between bounds and center of the mesh.
 Again, we want to make sure our math is subtracted from the world position.
@@ -74,6 +78,8 @@ extends or decreases the falloff on our gradient.
 As an example, I’ve created a material instance and made the scalar value a parameter to show below.
 
 {{< figure src="https://cdn.80.lv/api/upload/content/9d/5d2c7e8421c3c.gif" title="An example of how the parameters work in a Material Instance." >}}
+
+## Position Offset
 
 Alright! So we now have a very cool looking gradient that we can use for our stylized characters and props. But let’s say
 you want the gradient to begin higher up on the mesh instead of at the bottom? Well we know that the Object Position,
@@ -89,19 +95,18 @@ And here is an example of it in action!
 
 {{< figure src="https://cdn.80.lv/api/upload/content/97/images/5d2c7e77da89b/widen_920x0.png" title="Adding ZOffset to our position." >}}
 
+## Final Touches
+
 Now we have a 0-1 gradient value that we can plug into a Linear Interpolate node. This node blends between two inputs 
 based on an alpha, in this case our gradient. For the purposes of the tutorial, rather than using two different albedo 
 textures, I’ve just multiplied one by 0.1 to get a much darker version of the same texture. By plugging the multiplied 
 one into A, and the original into B, we get a gradient between light and dark. Here is an image of the final material.
 
-![]()
 {{< figure src="https://cdn.80.lv/api/upload/content/4e/images/5d2c7e7a80c7c/widen_920x0.png" title="Linear interpolating diffuse color by gradient." >}}
 
 Let’s apply this material to our mesh and  see what our results are.
 
 {{< figure src="https://cdn.80.lv/api/upload/content/f6/images/5d2c7e829ae83/widen_920x0.png" title="Final Stylized Linear Gradient, isn't it pretty 🥺❤️" >}}
-
-![]()
 
 If you have any questions, feel free to email alessa@codekitten.me – I’ll be happy to answer.
 
