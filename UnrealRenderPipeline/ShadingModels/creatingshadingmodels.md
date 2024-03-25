@@ -59,7 +59,7 @@ ahead of this branch, I cannot guarantee you won't have a little headache if any
 
 ---
 
-### Additional Resources
+## Additional Resources
 > [1] [Shading Models Official Documentation](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/MaterialProperties/LightingModels/) docs.unrealengine.com  
 > [2] [New shading models and changing the GBuffer by One3y3](https://dev.epicgames.com/community/learning/tutorials/2R5x/unreal-engine-new-shading-models-and-changing-the-gbuffer) dev.epicgames.com.  
 > [3] [Unreal Engine 4 Rendering Part 6: Adding a new Shading Model](https://medium.com/@lordned/ue4-rendering-part-6-adding-a-new-shading-model-e2972b40d72d) medium.com/@lordned    
