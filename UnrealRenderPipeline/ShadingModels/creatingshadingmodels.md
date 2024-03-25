@@ -1,7 +1,7 @@
 +++
 title = 'Creating a Shading Model'
 date = 2024-03-21T15:37:22+01:00
-draft = true
+draft = false
 weight = 0
 Notice = "Work in Progress"
 Author = "Alessa \"Codekitten\" Baker"
