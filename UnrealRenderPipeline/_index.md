@@ -1,7 +1,7 @@
 +++
-archetype = "home"
+archetype = "chapter"
 title = "Unreal Render Pipeline"
-weight = 2
+weight = 3
 +++
 
 The purpose of this section of Shaderwit.ch is to give an overview and to document areas of Unreal Engine's render pipeline

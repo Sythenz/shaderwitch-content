@@ -1,4 +1,5 @@
 +++
+archetype = "article"
 title = 'Creating a Shading Model'
 date = 2024-03-21T15:37:22+01:00
 draft = false
@@ -9,6 +10,7 @@ Author_url = "/Authors/alessa-codekitten-baker"
 status = "WIP"
 UnrealVersion = "5.2"
 description = "This article covers the basics of one of the most enjoyable and rewarding experiences of extending Unreal's Render Pipeline - creating Shading Models."
+type="article"
 +++
 
 {{< article-header >}}

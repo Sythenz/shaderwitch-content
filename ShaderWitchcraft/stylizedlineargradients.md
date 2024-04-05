@@ -8,6 +8,7 @@ status = "Complete"
 UnrealVersion = "4.0+"
 featured_image = "https://cdn.80.lv/api/upload/content/f6/images/5d2c7e829ae83/widen_920x0.png"
 description = "This tutorial is to teach you the basics of creating that stylized linear gradient seen in games like DOTA and League of Legends with a shader"
+type="article"
 +++
 
 {{< article-header >}}

@@ -5,6 +5,7 @@ weight = 1
 Author = "Alessa \"Codekitten\" Baker"
 Author_url = "/Authors/alessa-codekitten-baker"
 UnrealVersion = "5.2"
+type="article"
 +++
 
 {{< article-header >}}

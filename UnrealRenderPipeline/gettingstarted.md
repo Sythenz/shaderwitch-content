@@ -8,6 +8,7 @@ Author = "Alessa \"Codekitten\" Baker"
 Author_url = "/Authors/alessa-codekitten-baker"
 status = "WIP"
 description = "This article acts as a getting started on modifying the render pipeline in Unreal, tips on debugging, compiling shaders and some helpful commands."
+type="article"
 +++
 
 {{< article-header >}}

@@ -1,4 +1,5 @@
 +++
+archetype = "article"
 title = 'Scene View Extensions'
 date = 2024-03-21T15:37:22+01:00
 draft = false
@@ -9,6 +10,7 @@ Author = "Alessa \"Codekitten\" Baker"
 Author_url = "/Authors/alessa-codekitten-baker"
 status = "WIP"
 UnrealVersion = "5.2"
+type="article"
 +++
 
 {{< article-header >}}

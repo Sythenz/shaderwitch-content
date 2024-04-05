@@ -1,7 +1,7 @@
 +++
 archetype = "chapter"
 title = "Shader Witchcraft"
-weight = 1
+weight = 2
 +++
 
 {{< article-header >}}
