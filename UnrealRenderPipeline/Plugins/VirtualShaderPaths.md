@@ -3,7 +3,7 @@ archetype = "article"
 title = "Virtual Shader Paths"
 weight = 1
 Author = "Alessa \"Codekitten\" Baker"
-Author_url = "/Authors/alessa-codekitten-baker"
+Author_url = "/authors/alessa-codekitten-baker"
 UnrealVersion = "5.2"
 type="article"
 +++
