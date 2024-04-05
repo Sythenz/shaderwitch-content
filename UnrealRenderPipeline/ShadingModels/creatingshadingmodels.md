@@ -2,11 +2,13 @@
 title = 'Creating a Shading Model'
 date = 2024-03-21T15:37:22+01:00
 draft = false
-weight = 0
+weight = 1
 Notice = "Work in Progress"
 Author = "Alessa \"Codekitten\" Baker"
+Author_url = "/Authors/alessa-codekitten-baker"
 status = "WIP"
 UnrealVersion = "5.2"
+description = "This article covers the basics of one of the most enjoyable and rewarding experiences of extending Unreal's Render Pipeline - creating Shading Models."
 +++
 
 {{< article-header >}}

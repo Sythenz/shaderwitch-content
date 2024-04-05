@@ -2,10 +2,11 @@
 title = 'Scene View Extensions'
 date = 2024-03-21T15:37:22+01:00
 draft = false
-weight = 0
+weight = 99
 ShowNotice = true
 Notice = "Work in Progress"
 Author = "Alessa \"Codekitten\" Baker"
+Author_url = "/Authors/alessa-codekitten-baker"
 status = "WIP"
 UnrealVersion = "5.2"
 +++
