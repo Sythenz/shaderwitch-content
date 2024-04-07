@@ -17,9 +17,7 @@ type="article"
 
 ## Getting Started
 
-Implementing a custom shading model in Unreal Engine can be one of the most enjoyable and rewarding experiences, because
-it opens up so much more opportunity to experiment in custom rendering with minimal code changes. A lot of it comes down
-to just replicating an existing implementation of another shading model.
+Implementing a custom shading model in Unreal Engine can be one of the most enjoyable and rewarding experiences, because it opens up so much more opportunity to experiment in custom rendering with minimal code changes. A lot of it comes down to just replicating an existing implementation of another shading model.
 
 Here are the files we'll modify today.
 
@@ -38,9 +36,7 @@ Here are the files we'll modify today.
 
 ### Prerequisites
 
-At the time of this document being written, go ahead and git clone and then compile **5.2 branch** of Unreal Engine. 
-When you have a successful compile, we can get started by modifying our first file. If you are using an engine version
-ahead of this branch, I cannot guarantee you won't have a little headache if any of these things change.
+At the time of this document being written, go ahead and git clone and then compile **5.2 branch** of Unreal Engine.  When you have a successful compile, we can get started by modifying our first file. If you are using an engine version ahead of this branch, I cannot guarantee you won't have a little headache if any of these things change.
 
 ## Adding our Shading Model
 

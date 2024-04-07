@@ -19,20 +19,16 @@ type="article"
 
 ## What are Scene View Extensions?
 
-Scene View Extensions (SVEs) are in essence a relatively simple way to inject into the render pipeline your own shader 
-(Pixel, Vertex or Compute Shader) from your own HLSL to be compiled on the Render Dependency Graph. 
+Scene View Extensions (SVEs) are in essence a relatively simple way to inject into the render pipeline your own shader (Pixel, Vertex or Compute Shader) from your own HLSL to be compiled on the Render Dependency Graph. 
 
-Since ``ISceneViewExtension`` is extensible, it allows for this to be called within a plugin making it one of the easier 
-ways to add to the render pipeline without requiring Engine Modification.
+Since ``ISceneViewExtension`` is extensible, it allows for this to be called within a plugin making it one of the easier ways to add to the render pipeline without requiring Engine Modification.
 
-Unfortunately, SVEs aren't documented by Unreal Engine, however the actual header file ``SceneViewExtension.h`` is 
-surprisingly one of the better documented parts of the engine.
+Unfortunately, SVEs aren't documented by Unreal Engine, however the actual header file ``SceneViewExtension.h`` is  surprisingly one of the better documented parts of the engine.
 
 There aren't many hook points available, but here is a list of the ones that are mainly accessible [3].
 
 {{% notice style="info warning" title="Note" icon="cat" %}}
-Unfortunately as of Unreal Engine 5.1 some of these have calls have been deprecated, see their **UE_DEPRECATED** macro in the
-header file for more information.
+Unfortunately as of Unreal Engine 5.1 some of these have calls have been deprecated, see their **UE_DEPRECATED** macro in the header file for more information.
 {{% /notice %}}
 
 | Pass                              | Description                                                                                                                                      |
@@ -50,20 +46,15 @@ header file for more information.
 | PostRenderViewFamily_RenderThread | Allows to render content after the 3D content scene, useful for debugging                                                                        |
 | PostRenderView_RenderThread       | Allows to render content after the 3D content scene, useful for debugging                                                                        |
 
-Overriding any of these allows for you ISceneViewExtensionBase to call on your new pass and have it running on the render
-stack.
+Overriding any of these allows for you ISceneViewExtensionBase to call on your new pass and have it running on the render stack.
 
-Any of the ones with _RenderThread give access to their own ```FRDGBuilder``` which is the starting point for building
-a graph of passes to be rendered with the Render Dependency Graph.
+Any of the ones with _RenderThread give access to their own ```FRDGBuilder``` which is the starting point for building a graph of passes to be rendered with the Render Dependency Graph.
 
 ## How to create a SVE
 
-Before we get started please check out the article on [Custom .Ush files]() as this will get you started on generating
-your own virtual shader path to be able to store your own shaders relative to your plugin directory.
+Before we get started please check out the article on [Custom .Ush files]() as this will get you started on generating your own virtual shader path to be able to store your own shaders relative to your plugin directory.
 
-The technique in the article above also is just a super helpful way to run custom HLSL in an IDE and not have to rely
-on writing code in that horrible tiny text box on the details panel of the Custom Node 
-(this appears to be changing with a correctly formatted box in UE5.4+ on UE5-main 👀❤️).
+The technique in the article above also is just a super helpful way to run custom HLSL in an IDE and not have to rely on writing code in that horrible tiny text box on the details panel of the Custom Node  (this appears to be changing with a correctly formatted box in UE5.4+ on UE5-main 👀❤️).
 
 
 ---
